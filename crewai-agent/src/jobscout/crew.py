@@ -1,63 +1,110 @@
-from crewai import Agent, Crew, Process, Task
-from crewai.project import CrewBase, agent, crew, task
+import os
+from typing import List
+
+from crewai import LLM, Agent, Crew, Process, Task
 from crewai.agents.agent_builder.base_agent import BaseAgent
-# If you want to run a snippet of code before or after the crew starts,
-# you can use the @before_kickoff and @after_kickoff decorators
-# https://docs.crewai.com/concepts/crews#example-crew-class-with-decorators
+from crewai.project import CrewBase, agent, before_kickoff, crew, task
+from dotenv import load_dotenv
+
+from jobscout.tools.job_search_tools import (
+    AdzunaSearchTool,
+    JobicySearchTool,
+    RemotiveSearchTool,
+    TheMuseSearchTool,
+)
+from jobscout.tools.publisher_tool import JobPublisherTool
+from jobscout.tools.resume_tool import ResumeParseTool
+
 
 @CrewBase
-class Jobscout():
-    """Jobscout crew"""
+class Jobscout:
+    """JobScout crew — weekly backend job scouting agent for Nigeria-based engineers."""
 
-    agents: list[BaseAgent]
-    tasks: list[Task]
+    agents: List[BaseAgent]
+    tasks: List[Task]
 
-    # Learn more about YAML configuration files here:
-    # Agents: https://docs.crewai.com/concepts/agents#yaml-configuration-recommended
-    # Tasks: https://docs.crewai.com/concepts/tasks#yaml-configuration-recommended
-    
-    # If you would like to add tools to your agents, you can learn more about it here:
-    # https://docs.crewai.com/concepts/agents#agent-tools
-    @agent
-    def researcher(self) -> Agent:
-        return Agent(
-            config=self.agents_config['researcher'], # type: ignore[index]
-            verbose=True
-        )
+    @before_kickoff
+    def load_env(self, inputs):
+        load_dotenv()
+        return inputs
 
     @agent
-    def reporting_analyst(self) -> Agent:
+    def resume_parser(self) -> Agent:
         return Agent(
-            config=self.agents_config['reporting_analyst'], # type: ignore[index]
-            verbose=True
+            config=self.agents_config["resume_parser"],  # type: ignore[index]
+            tools=[ResumeParseTool()],
+            llm=self._llm(),
+            verbose=True,
         )
 
-    # To learn more about structured task outputs,
-    # task dependencies, and task callbacks, check out the documentation:
-    # https://docs.crewai.com/concepts/tasks#overview-of-a-task
-    @task
-    def research_task(self) -> Task:
-        return Task(
-            config=self.tasks_config['research_task'], # type: ignore[index]
+    @agent
+    def job_searcher(self) -> Agent:
+        return Agent(
+            config=self.agents_config["job_searcher"],  # type: ignore[index]
+            tools=[
+                RemotiveSearchTool(),
+                AdzunaSearchTool(),
+                TheMuseSearchTool(),
+                JobicySearchTool(),
+            ],
+            llm=self._llm(),
+            verbose=True,
+        )
+
+    @agent
+    def job_matcher(self) -> Agent:
+        return Agent(
+            config=self.agents_config["job_matcher"],  # type: ignore[index]
+            tools=[],
+            llm=self._llm(),
+            verbose=True,
+        )
+
+    @agent
+    def job_publisher(self) -> Agent:
+        return Agent(
+            config=self.agents_config["job_publisher"],  # type: ignore[index]
+            tools=[JobPublisherTool()],
+            llm=self._llm(),
+            verbose=True,
         )
 
     @task
-    def reporting_task(self) -> Task:
+    def parse_resume_task(self) -> Task:
         return Task(
-            config=self.tasks_config['reporting_task'], # type: ignore[index]
-            output_file='report.md'
+            config=self.tasks_config["parse_resume_task"],  # type: ignore[index]
+        )
+
+    @task
+    def search_jobs_task(self) -> Task:
+        return Task(
+            config=self.tasks_config["search_jobs_task"],  # type: ignore[index]
+            context=[self.parse_resume_task()],
+        )
+
+    @task
+    def match_jobs_task(self) -> Task:
+        return Task(
+            config=self.tasks_config["match_jobs_task"],  # type: ignore[index]
+            context=[self.parse_resume_task(), self.search_jobs_task()],
+        )
+
+    @task
+    def publish_jobs_task(self) -> Task:
+        return Task(
+            config=self.tasks_config["publish_jobs_task"],  # type: ignore[index]
+            context=[self.match_jobs_task()],
         )
 
     @crew
     def crew(self) -> Crew:
-        """Creates the Jobscout crew"""
-        # To learn how to add knowledge sources to your crew, check out the documentation:
-        # https://docs.crewai.com/concepts/knowledge#what-is-knowledge
-
         return Crew(
-            agents=self.agents, # Automatically created by the @agent decorator
-            tasks=self.tasks, # Automatically created by the @task decorator
+            agents=self.agents,
+            tasks=self.tasks,
             process=Process.sequential,
             verbose=True,
-            # process=Process.hierarchical, # In case you wanna use that instead https://docs.crewai.com/how-to/Hierarchical/
         )
+
+    def _llm(self) -> LLM:
+        model = os.getenv("MODEL", "gpt-4o")
+        return LLM(model=f"openai/{model}")

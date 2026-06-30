@@ -1,17 +1,86 @@
-research_task:
+parse_resume_task:
   description: >
-    Conduct a thorough research about {topic}
-    Make sure you find any interesting and relevant information given
-    the current year is {current_year}.
-  expected_output: >
-    A list with 10 bullet points of the most relevant information about {topic}
-  agent: researcher
+    Use the Resume Parser Tool to read the candidate's resume PDF from the
+    configured resume directory. Extract and structure the following information:
+    - Full name and contact summary
+    - Primary tech stack (list all languages, frameworks, databases, tools)
+    - Years of experience per technology where determinable
+    - Overall seniority level (junior / mid / senior / lead / principal)
+    - Most recent 3 job titles and companies
+    - Key achievements or standout projects relevant to backend engineering
+    - Any notable certifications or education
 
-reporting_task:
-  description: >
-    Review the context you got and expand each topic into a full section for a report.
-    Make sure the report is detailed and contains any and all relevant information.
+    Return the profile as a clearly labelled structured summary. Do not invent
+    or assume any information not explicitly present in the resume.
   expected_output: >
-    A fully fledged report with the main topics, each with a full section of information.
-    Formatted as markdown without '```'
-  agent: reporting_analyst
+    A structured candidate profile with clearly labelled sections:
+    Name, Seniority Level, Primary Tech Stack, Years of Experience per Technology,
+    Recent Roles, Key Achievements, and Education/Certifications.
+  agent: resume_parser
+
+search_jobs_task:
+  description: >
+    Using the candidate profile from the previous task, search all four job sources
+    using their respective tools: Remotive Job Search, Adzuna Job Search,
+    The Muse Job Search, and Jobicy Job Search.
+
+    Call each tool and collect all results. Then apply these filters before returning:
+    - Role must be backend engineering (Java, Python, Node.js, NestJS, or similar)
+    - The candidate is based in Nigeria. Only include roles that are:
+        * Fully remote with no location restriction, OR
+        * Explicitly open to worldwide or Africa-based applicants, OR
+        * Listed as Remote / Worldwide / Global in the location field
+      Exclude any role that requires physical relocation or in-person presence
+      in a specific country unless the role also offers a remote option.
+    - Salary must be at least $2,500/month where disclosed. If salary is not disclosed,
+      include the job but note it as undisclosed.
+    - Remove exact duplicate job IDs
+
+    Return the combined, filtered list of job postings as a JSON array.
+  expected_output: >
+    A JSON array of job postings. Each object must include:
+    id, title, company, location, description, url, salary, tags, source, posted_date.
+    Salary field should be the raw value from the source or "Not disclosed".
+  agent: job_searcher
+
+match_jobs_task:
+  description: >
+    You have two inputs from prior tasks:
+    1. The structured candidate profile (from parse_resume_task)
+    2. The list of job postings (from search_jobs_task)
+
+    Score each job against the candidate profile on a scale of 0 to 100 using these criteria:
+    - Tech stack overlap (40 points): how many required skills match the candidate's stack
+    - Experience level fit (30 points): does the required seniority match the candidate's level
+    - Remote accessibility (20 points): the candidate is based in Nigeria and cannot relocate.
+        * Full 20 points: role is fully remote with no location restriction
+        * 10 points: role is remote but prefers or restricts to a specific timezone or region
+        * 0 points: role requires physical presence or relocation — discard this job entirely
+    - Role and domain relevance (10 points): does the role align with the candidate's trajectory
+
+    Select the top 20 jobs by score. For each selected job, produce a JSON object with all
+    original fields preserved PLUS:
+    - match_score (integer 0–100)
+    - match_reasons (list of exactly 3 specific strings explaining the score)
+    - should_apply (boolean: true if score >= 65, false otherwise)
+
+    Be honest. Do not inflate scores. A score of 60 is acceptable if the fit is partial.
+  expected_output: >
+    A valid JSON array of exactly up to 20 job objects. Each object must include all original
+    fields from the search results plus: match_score (integer), match_reasons (list of 3 strings),
+    should_apply (boolean). The array must be sorted by match_score descending.
+    Output only the raw JSON array with no surrounding markdown or explanation.
+  agent: job_matcher
+
+publish_jobs_task:
+  description: >
+    Take the JSON array of matched and scored jobs produced by the previous task
+    and publish it using the Job Publisher Tool.
+
+    Pass the entire JSON array as a string to the jobs_json parameter of the tool.
+    Do not modify, truncate, or reformat the data before passing it.
+    After the tool confirms success, report the summary it returns.
+  expected_output: >
+    A confirmation message stating how many jobs were published, how many are new
+    this week, and the title and company of the top-scoring match.
+  agent: job_publisher

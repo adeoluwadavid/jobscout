@@ -2,10 +2,10 @@
 name = "jobscout"
 version = "0.1.0"
 description = "AI-powered job scout using CrewAI"
-authors = [{ name = "David Adewole", email = "david.adewole@ehealthnigeria.org" }]
+authors = [{ name = "David Adewole", email = "adeoluwadavid@gmail.com" }]
 requires-python = ">=3.10,<3.14"
 dependencies = [
-    "crewai[tools]==1.14.5a2",
+    "crewai[tools]>=1.0.0",
     "pdfplumber>=0.11.0",
     "requests>=2.32.0",
     "python-dotenv>=1.0.0",
