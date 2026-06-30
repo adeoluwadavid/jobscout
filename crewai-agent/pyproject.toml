@@ -1,0 +1,22 @@
+[project]
+name = "jobscout"
+version = "0.1.0"
+description = "AI-powered job scout using CrewAI"
+authors = [{ name = "David Adewole", email = "david.adewole@ehealthnigeria.org" }]
+requires-python = ">=3.10,<3.14"
+dependencies = [
+    "crewai[tools]==1.14.5a2",
+    "pdfplumber>=0.11.0",
+    "requests>=2.32.0",
+    "python-dotenv>=1.0.0",
+]
+
+[project.scripts]
+jobscout = "jobscout.main:run"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.crewai]
+type = "crew"
