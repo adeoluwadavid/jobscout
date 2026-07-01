@@ -59,10 +59,11 @@ class JobPublisherTool(BaseTool):
         cleaned: list[dict] = []
 
         for job in incoming_jobs:
-            job_id = job.get("id", "")
+            job_id = job.get("id") or job.get("job_id", "")
             if not job_id or job_id in seen:
                 continue
             seen.add(job_id)
+            job["id"] = job_id  # normalise key to always be "id"
             job["is_new"] = job_id not in previous_ids
             job.setdefault("found_date", today)
             cleaned.append(job)
