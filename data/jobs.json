@@ -1,7 +1,173 @@
 {
-  "last_updated": "2026-07-01T18:22:55.775429+00:00",
+  "last_updated": "2026-07-01T19:02:02.618591+00:00",
   "run_status": "completed",
-  "total_jobs": 0,
-  "new_this_run": 0,
-  "jobs": []
+  "total_jobs": 5,
+  "new_this_run": 5,
+  "jobs": [
+    {
+      "id": "jobicy-147692",
+      "title": "Voice Backend Software Engineer (Node.js and Java) | Remote | US",
+      "company": "Sutherland",
+      "location": "USA",
+      "description": "Artificial Intelligence. Automation. Cloud engineering. Advanced analytics.",
+      "url": "https://jobicy.com/jobs/147692-voice-backend-software-engineer-node-js-and-java-remote-us",
+      "salary": "Not disclosed",
+      "tags": [
+        "Software Engineering"
+      ],
+      "source": "Jobicy",
+      "posted_date": "2026-06-25",
+      "match_score": 80,
+      "match_reasons": [
+        "Strong experience with both Java and Node.js which are key requirements.",
+        "Role is remote, allowing work from Nigeria.",
+        "Fits perfectly with David's experience in backend software engineering."
+      ],
+      "should_apply": true,
+      "is_new": true,
+      "found_date": "2026-07-01"
+    },
+    {
+      "id": "remotive-2069746",
+      "title": "Tech Lead Full-Stack Rails Engineer",
+      "company": "Mitre Media",
+      "location": "USA, Canada, USA timezones",
+      "description": "About Mitre Media",
+      "url": "https://remotive.com/remote-jobs/software-development/tech-lead-full-stack-rails-engineer-2069746",
+      "salary": "$170k - $200k",
+      "tags": [
+        "api",
+        "CSS",
+        "docker",
+        "elasticsearch",
+        "fullstack",
+        "html",
+        "javascript",
+        "kubernetes",
+        "postgresql",
+        "react",
+        "ror",
+        "ruby/rails",
+        "AI/ML",
+        "CAD",
+        "advertising",
+        "Redis",
+        "ES6",
+        "web applications",
+        "MySQL",
+        "NLP",
+        "fintech",
+        "Micro services",
+        "github",
+        "system architecture"
+      ],
+      "source": "Remotive",
+      "posted_date": "2026-06-14",
+      "match_score": 75,
+      "match_reasons": [
+        "Proficient in JavaScript, React, and Docker which are core skills for this role.",
+        "Previous leadership and mentoring experience align with the Tech Lead role.",
+        "Though timezone restricted, it is remote and partially fits David\u2019s location needs."
+      ],
+      "should_apply": true,
+      "is_new": true,
+      "found_date": "2026-07-01"
+    },
+    {
+      "id": "jobicy-147758",
+      "title": "Senior Software Engineer (Java)",
+      "company": "Zartis",
+      "location": "Europe",
+      "description": "Zartis is a global AI transformation and technology consulting partner where talented engineers and technologists work on cutting edge innovation.",
+      "url": "https://jobicy.com/jobs/147758-senior-software-engineer-java",
+      "salary": "Not disclosed",
+      "tags": [
+        "Software Engineering"
+      ],
+      "source": "Jobicy",
+      "posted_date": "2026-06-25",
+      "match_score": 75,
+      "match_reasons": [
+        "Extensive experience in Java, which is the primary requirement for the role.",
+        "Role requires a senior level, which matches David\u2019s experience.",
+        "Remote within Europe is acceptable, although not ideal for Nigeria."
+      ],
+      "should_apply": true,
+      "is_new": true,
+      "found_date": "2026-07-01"
+    },
+    {
+      "id": "remotive-2090982",
+      "title": "Senior Data Scientist",
+      "company": "Lemon.io",
+      "location": "Americas, Europe, Asia, Oceania",
+      "description": "Are you a talented Senior Data Scientist looking for a remote job that lets you show your skills and get decent compensation? Look no further than Lemon.io.",
+      "url": "https://lemon.io/for-developers/?utm_source=remotive&utm_medium=job_ad&utm_campaign=supply_en_data_scientist _jun_2026_job_ad",
+      "salary": "Not disclosed",
+      "tags": [
+        "android",
+        "AWS",
+        "azure",
+        "C++",
+        "data science",
+        "golang",
+        "ios",
+        "java",
+        "javascript",
+        "node.js",
+        "php",
+        "python",
+        "react",
+        "shopify",
+        "blockchain",
+        "AI/ML",
+        "rust",
+        "unity",
+        "spring",
+        "data analysis",
+        "solidity",
+        "flask",
+        "angular",
+        "GCP",
+        "Symfony",
+        "startup",
+        "NumPy",
+        "marketplace"
+      ],
+      "source": "Remotive",
+      "posted_date": "2026-06-11",
+      "match_score": 70,
+      "match_reasons": [
+        "Proficient in Python, Java, and Node.js, which are relevant to data-related tasks.",
+        "Familiar with AWS and GCP cloud platforms.",
+        "Though primarily focused on data science, the backend skills are applicable."
+      ],
+      "should_apply": true,
+      "is_new": true,
+      "found_date": "2026-07-01"
+    },
+    {
+      "id": "jobicy-142198",
+      "title": "Java Backend Engineer (AI/LLM Chatbot, Customer Service)",
+      "company": "Binance",
+      "location": "APAC",
+      "description": "Development and implementation Backend service for the AI Chatbot products.",
+      "url": "https://jobicy.com/jobs/142198-java-backend-engineer-ai-llm-chatbot-customer-service",
+      "salary": "Not disclosed",
+      "tags": [
+        "Software Engineering"
+      ],
+      "source": "Jobicy",
+      "posted_date": "2026-06-27",
+      "match_score": 70,
+      "match_reasons": [
+        "Strong Java background matches the backend developer requirement.",
+        "Role is relevant and fits with David's extensive experience with Java and AI technologies.",
+        "APAC location might pose challenges, but the role is remote."
+      ],
+      "should_apply": true,
+      "is_new": true,
+      "found_date": "2026-07-01"
+    }
+  ]
 }
