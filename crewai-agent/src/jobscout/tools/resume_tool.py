@@ -10,7 +10,11 @@ from pydantic import BaseModel, Field
 class ResumeDirInput(BaseModel):
     resume_dir: str = Field(
         default="",
-        description="Optional path to the resume directory. Defaults to RESUME_DIR env var if not provided."
+        description=(
+            "Leave this empty string ''. The tool automatically reads the resume "
+            "directory from the RESUME_DIR environment variable. Do not guess or "
+            "construct a path — always pass an empty string."
+        )
     )
 
 

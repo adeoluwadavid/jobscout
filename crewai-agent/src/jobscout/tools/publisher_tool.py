@@ -1,3 +1,4 @@
+import hashlib
 import json
 import os
 from datetime import datetime, timezone
@@ -59,7 +60,13 @@ class JobPublisherTool(BaseTool):
         cleaned: list[dict] = []
 
         for job in incoming_jobs:
-            job_id = job.get("id") or job.get("job_id", "")
+            job_id = (
+                job.get("id")
+                or job.get("job_id")
+                or hashlib.md5(
+                    f"{job.get('title','')}{job.get('company','')}".encode()
+                ).hexdigest()[:12]
+            )
             if not job_id or job_id in seen:
                 continue
             seen.add(job_id)
