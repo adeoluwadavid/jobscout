@@ -213,3 +213,44 @@ class JobicySearchTool(BaseTool):
         "Returns a JSON list of matching remote-first job postings."
     )
     args_schema: Type[BaseModel] = EmptyInput
+
+    def _run(self, query: str = "") -> str:
+        jobs = []
+        seen_ids = set()
+        tags = ["java", "python", "nodejs", "backend"]
+
+        for tag in tags:
+            try:
+                response = requests.get(
+                    "https://jobicy.com/api/v2/remote-jobs",
+                    params={"count": 10, "industry": "engineering", "tag": tag},
+                    timeout=REQUEST_TIMEOUT,
+                )
+                if response.status_code != 200:
+                    continue
+
+                for job in response.json().get("jobs", []):
+                    job_id = f"jobicy-{job['id']}"
+                    if job_id in seen_ids:
+                        continue
+                    title = job.get("jobTitle", "")
+                    description = job.get("jobDescription", "")
+                    if not _matches_stack(title + " " + description):
+                        continue
+                    seen_ids.add(job_id)
+                    jobs.append({
+                        "id": job_id,
+                        "title": title,
+                        "company": job.get("companyName", ""),
+                        "location": job.get("jobGeo", "Remote / Worldwide"),
+                        "description": _truncate(description),
+                        "url": job.get("url", ""),
+                        "salary": job.get("annualSalaryMin", ""),
+                        "tags": job.get("jobIndustry", []),
+                        "source": "Jobicy",
+                        "posted_date": job.get("pubDate", "")[:10],
+                    })
+            except requests.RequestException:
+                continue
+
+        return json.dumps(jobs[:20])
