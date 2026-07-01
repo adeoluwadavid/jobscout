@@ -1,0 +1,52 @@
+name: JobScout Weekly Run
+
+on:
+  schedule:
+    - cron: '0 8 * * 1'  # Every Monday at 8 AM UTC
+  workflow_dispatch:       # Allows manual trigger from GitHub UI
+
+jobs:
+  run-crew:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write  # Required to commit jobs.json back to the repo
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v4
+
+      - name: Install dependencies
+        working-directory: crewai-agent
+        run: uv sync
+
+      - name: Run JobScout crew
+        working-directory: crewai-agent
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          MODEL: ${{ secrets.MODEL }}
+          RESUME_DIR: ${{ github.workspace }}/resume
+          JOBS_OUTPUT_PATH: ${{ github.workspace }}/data/jobs.json
+          ADZUNA_APP_ID: ${{ secrets.ADZUNA_APP_ID }}
+          ADZUNA_API_KEY: ${{ secrets.ADZUNA_API_KEY }}
+        run: uv run jobscout
+
+      - name: Commit updated jobs.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/jobs.json
+          if git diff --staged --quiet; then
+            echo "No changes to jobs.json — skipping commit"
+          else
+            git commit -m "chore: update job listings [$(date -u '+%Y-%m-%d')]"
+            git push
+          fi
