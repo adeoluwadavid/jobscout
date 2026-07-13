@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-07-06T11:56:18.495638+00:00",
+  "last_updated": "2026-07-13T10:50:48.591484+00:00",
   "run_status": "completed",
-  "total_jobs": 4,
-  "new_this_run": 2,
+  "total_jobs": 5,
+  "new_this_run": 4,
   "jobs": [
     {
       "id": "remotive-2090986",
@@ -10,132 +10,123 @@
       "company": "Lemon.io",
       "location": "Northern America, LATAM, Europe, APAC",
       "description": "Are you a talented Senior AI Engineer looking for a remote job that lets you show your skills and get decent compensation? Look no further than Lemon.io \u2014 the marketplace that connects you with hand-picked startups in the US and Europe.",
-      "url": "https://remotive.com/remote-jobs/software-development/senior-ai-engineer-2090986",
+      "url": "https://remotive.com/remote-jobs/artificial-intelligence/senior-ai-engineer-2090986",
       "salary": "Not disclosed",
       "tags": [
         ".Net",
-        "android",
-        "C",
-        "C#",
-        "C++",
-        "data science",
-        "golang",
-        "ios",
         "java",
         "javascript",
         "node.js",
         "php",
         "python",
-        "react",
         "ruby/rails",
-        "scala",
-        "shopify",
-        "swift",
-        "UI/UX",
-        "wordpress",
-        "blockchain",
         "AI/ML",
-        "automation",
-        "project management",
-        "react native",
-        "rust",
-        "unity",
-        "electron",
-        "spring",
-        "laravel",
-        "Ethereum",
-        "graphic design",
-        "Typescript ",
-        "angular ",
-        "data engineering",
-        "Site Reliability",
-        "SOLID",
-        "Symfony",
-        "startup",
-        "marketplace",
-        "next.js",
-        "flutter"
+        "scala",
+        "golang"
       ],
       "source": "Remotive",
       "posted_date": "2026-07-02",
-      "match_score": 82,
+      "match_score": 85,
       "match_reasons": [
-        "High tech stack overlap: Java, JavaScript, Node.js, Python, React",
-        "Senior level matches candidate's experience",
-        "Fully remote opportunity with no specific timezone restriction"
+        "Strong overlap with tech stack: Java, JavaScript, Node.js, Python are all key skills.",
+        "No location restrictions, allowing work from Nigeria.",
+        "Senior engineer level matches candidate's 7+ years of experience."
       ],
       "should_apply": true,
-      "is_new": true,
-      "found_date": "2026-07-06"
+      "is_new": false,
+      "found_date": "2026-07-13"
     },
     {
-      "id": "jobicy-147648",
-      "title": "Senior Fullstack Engineer (Java / React)",
-      "company": "Zartis",
-      "location": "Europe",
-      "description": "Zartis is a global AI transformation and technology consulting partner where talented engineers and technologists work on cutting edge innovation. We partner with ambitious organizations to design, build, and scale technology solutions that deliver real impact.",
-      "url": "https://jobicy.com/jobs/147648-senior-fullstack-engineer-java-react",
+      "id": "jobicy-145788",
+      "title": "Staff Software Engineer - Full Remote or Hybrid (m/f/d)",
+      "company": "Voyage Priv\u00e9",
+      "location": "France",
+      "description": "Born in France in 2006, Voyage Priv\u00e9 has grown from an ambitious startup into becoming Europe\u2019s leading travel tech platform.",
+      "url": "https://jobicy.com/jobs/145788-staff-software-engineer-full-remote-or-hybrid-m-f-d",
       "salary": "Not disclosed",
       "tags": [
         "Software Engineering"
       ],
       "source": "Jobicy",
-      "posted_date": "2026-06-24",
-      "match_score": 75,
+      "posted_date": "2026-07-12",
+      "match_score": 78,
       "match_reasons": [
-        "Tech stack fit with Java and React expertise",
-        "Senior level role aligns with candidate's current experience",
-        "Remote position aligning with candidate's location needs"
+        "Full remote work option available, suitable for working from Nigeria.",
+        "Role focuses on software engineering matching backend and leadership skills.",
+        "The candidate's experience with AWS and scalable systems fits travel tech's needs."
       ],
       "should_apply": true,
       "is_new": true,
-      "found_date": "2026-07-06"
+      "found_date": "2026-07-13"
     },
     {
-      "id": "jobicy-147758",
-      "title": "Senior Software Engineer (Java)",
-      "company": "Zartis",
-      "location": "Europe",
-      "description": "Zartis is a global AI transformation and technology consulting partner where talented engineers and technologists work on cutting edge innovation. We partner with ambitious organizations to design, build, and scale technology solutions that deliver real impact.",
-      "url": "https://jobicy.com/jobs/147758-senior-software-engineer-java",
+      "id": "jobicy-145861",
+      "title": "Senior Full Stack Engineer",
+      "company": "infisical",
+      "location": "Brazil, Canada, France, UK, USA",
+      "description": "Infisical is looking to hire exceptional talent to join our teams in building the open source security infrastructure stack for the AI era.",
+      "url": "https://jobicy.com/jobs/145861-senior-full-stack-engineer-5",
       "salary": "Not disclosed",
       "tags": [
         "Software Engineering"
       ],
       "source": "Jobicy",
-      "posted_date": "2026-06-25",
+      "posted_date": "2026-07-12",
+      "match_score": 72,
+      "match_reasons": [
+        "Strong overlap with tech stack including JavaScript and Python.",
+        "Senior level role aligns with experience.",
+        "Security infrastructure domain relevant to backend expertise."
+      ],
+      "should_apply": true,
+      "is_new": true,
+      "found_date": "2026-07-13"
+    },
+    {
+      "id": "muse-5526782",
+      "title": "Senior Video Chat Platform Engineer",
+      "company": "Pilotly",
+      "location": "Flexible / Remote, Los Angeles, CA, Oakland, CA",
+      "description": "Join the Pilotly team, the first market research platform built for creative content. By allowing viewers to give feedback in real-time on unreleased content, we help the largest content creators around the world make better decisions.",
+      "url": "https://www.themuse.com/jobs/pilotly/senior-video-chat-platform-engineer-a6610c",
+      "salary": "Not disclosed",
+      "tags": [
+        "Senior Level"
+      ],
+      "source": "The Muse",
+      "posted_date": "2021-03-31",
       "match_score": 70,
       "match_reasons": [
-        "Experience in Java is a strong match for the role",
-        "Senior Software Engineer title fits candidate's seniority",
-        "Remote work allows for candidate's current location"
+        "Remote work flexibility possibly includes work from Nigeria.",
+        "Senior level role aligns with candidate's experience.",
+        "Role in platform engineering likely involves relevant backend skills."
       ],
       "should_apply": true,
-      "is_new": false,
-      "found_date": "2026-07-06"
+      "is_new": true,
+      "found_date": "2026-07-13"
     },
     {
-      "id": "jobicy-142198",
-      "title": "Java Backend Engineer (AI/LLM Chatbot, Customer Service)",
-      "company": "Binance",
-      "location": "APAC",
-      "description": "Binance is the leading global blockchain ecosystem and cryptocurrency infrastructure provider whose suite of financial products includes the world\u2019s largest digital-asset exchange. Our mission is to accelerate cryptocurrency adoption and increase the freedom of money.",
-      "url": "https://jobicy.com/jobs/142198-java-backend-engineer-ai-llm-chatbot-customer-service",
+      "id": "jobicy-145932",
+      "title": "Enterprise Core Sales Engineer",
+      "company": "Samsara",
+      "location": "USA",
+      "description": "Samsara is the pioneer of the Connected Operations\u2122 Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights.",
+      "url": "https://jobicy.com/jobs/145932-enterprise-core-sales-engineer",
       "salary": "Not disclosed",
       "tags": [
         "Software Engineering"
       ],
       "source": "Jobicy",
-      "posted_date": "2026-06-27",
-      "match_score": 68,
+      "posted_date": "2026-07-12",
+      "match_score": 50,
       "match_reasons": [
-        "Strong Java backend experience aligns with job requirements",
-        "Role is relevant to candidate's backend development expertise",
-        "APAC location may pose time zone challenges but technologically fitting"
+        "Position is based in USA, restricting work from Nigeria.",
+        "Enterprise core sales engineering may not directly match backend focus.",
+        "No clear overlap with preferred tech stacks."
       ],
-      "should_apply": true,
-      "is_new": false,
-      "found_date": "2026-07-06"
+      "should_apply": false,
+      "is_new": true,
+      "found_date": "2026-07-13"
     }
   ]
 }
