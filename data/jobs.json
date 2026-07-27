@@ -1,15 +1,15 @@
 {
-  "last_updated": "2026-07-20T10:41:34.391479+00:00",
+  "last_updated": "2026-07-27T11:12:02.452281+00:00",
   "run_status": "completed",
-  "total_jobs": 4,
-  "new_this_run": 3,
+  "total_jobs": 7,
+  "new_this_run": 4,
   "jobs": [
     {
       "id": "remotive-2091067",
       "title": "Senior DevOps Engineer",
       "company": "Lemon.io",
       "location": "Americas, Europe, Asia, Africa, Oceania",
-      "description": "Are you a talented Senior DevOps looking for a remote job that lets you show your skills and get decent compensation? Look no further than Lemon.io \u2014 the marketplace that connects you with hand-picked startups in the US and Europe.",
+      "description": "<p>Are you a talented Senior DevOps looking for a remote job that lets you show your skills and get decent compensation? Look no further than <span class=\"notion-enable-hover\" style=\"color: rgba(193, 76, 138, 1); fill: rgba(193, 76, 138, 1); isolation: auto;\"><a href=\"https://lemon.io/for-developers/?utm_source=remotive&amp;utm_medium=job_ad&amp;utm_campaign=supply_en_devops_jul_2026_job_ad\" rel=\"nofollow\" target=\"_self\">Lemon.io</a></span> \u2014 the marketplace that connects you with hand-picked startups in the US and Europe.</p>",
       "url": "https://remotive.com/remote-jobs/devops/senior-devops-engineer-2091067",
       "salary": "Not disclosed",
       "tags": [
@@ -66,22 +66,45 @@
       ],
       "source": "Remotive",
       "posted_date": "2026-07-14",
-      "match_score": 80,
+      "match_score": 95,
       "match_reasons": [
-        "Strong alignment with tech stack including AWS, GCP, Java, JavaScript, Node.js, Kubernetes, Python.",
-        "Role is fully remote with no location restriction, allowing for work from Nigeria.",
-        "Senior level position matches candidate's experience as a Senior Software Engineer."
+        "Extensive experience with AWS, Kubernetes, and Docker aligns perfectly with the DevOps requirements.",
+        "Role is fully remote and accessible from Africa, matching David's location flexibility needs.",
+        "David's seniority and cloud engineering skills make him an ideal candidate for this position."
       ],
       "should_apply": true,
-      "is_new": true,
-      "found_date": "2026-07-20"
+      "is_new": false,
+      "found_date": "2026-07-27"
+    },
+    {
+      "id": "jobicy-149156",
+      "title": "Senior Full-stack Engineer (Python/React) - Advertising",
+      "company": "Truelogic",
+      "location": "LATAM",
+      "description": "<h2><strong>About Truelogic</strong></h2><p>At Truelogic we are a leading provider of nearshore staff augmentation services headquartered in New York. For over two decades, we\u2019ve been delivering top-tier technology solutions to companies of all sizes, from innovative startups to industry leaders, helping them achieve their digital transformation goals.</p><p>Our team of 600+ highly skilled tech professionals, based in Latin America, drives digital disruption by partnering with U.S. companies on their most impactful projects. Whether collaborating with Fortune 500 giants or scaling startups...</p>",
+      "url": "https://jobicy.com/jobs/149156-senior-full-stack-engineer-python-react-advertising",
+      "salary": "Not disclosed",
+      "tags": [
+        "Software Engineering"
+      ],
+      "source": "Jobicy",
+      "posted_date": "2026-07-12",
+      "match_score": 90,
+      "match_reasons": [
+        "David has strong experience in both React and Python.",
+        "The role aligns with David's full-stack engineering expertise and seniority level.",
+        "Position is remote-friendly for LATAM regions and doesn't require relocation."
+      ],
+      "should_apply": true,
+      "is_new": false,
+      "found_date": "2026-07-27"
     },
     {
       "id": "remotive-2090986",
       "title": "Senior AI Engineer",
       "company": "Lemon.io",
       "location": "Northern America, LATAM, Europe, APAC",
-      "description": "Are you a talented Senior AI Engineer looking for a remote job that lets you show your skills and get decent compensation? Look no further than Lemon.io \u2014 the marketplace that connects you with hand-picked startups in the US and Europe.",
+      "description": "<p>Are you a talented Senior AI Engineer\u00a0looking for a remote job that lets you show your skills and get decent compensation? Look no further than <span class=\"notion-enable-hover\" style=\"color: #c14c8a; fill: #c14c8a; isolation: auto;\"><a href=\"https://lemon.io/for-developers/?utm_source=remotive&amp;utm_medium=job_ad&amp;utm_campaign=supply_en_ai_engineer_jul_2026_job_ad\" rel=\"nofollow\" target=\"_self\">Lemon.io</a></span> \u2014 the marketplace that connects you with hand-picked startups in the US and Europe.</p>",
       "url": "https://remotive.com/remote-jobs/artificial-intelligence/senior-ai-engineer-2090986",
       "salary": "Not disclosed",
       "tags": [
@@ -130,61 +153,107 @@
       ],
       "source": "Remotive",
       "posted_date": "2026-07-02",
-      "match_score": 70,
+      "match_score": 88,
       "match_reasons": [
-        "Technology stack includes Java, JavaScript, Node.js, Python, React, matching candidate's skills.",
-        "Senior level role fits candidate's current position and experience level.",
-        "Job role is remote but with preferred regions, offering potential accessibility despite geographic location."
+        "Strong Python skills and knowledge of AI/ML make David a good candidate for this role.",
+        "Role offers a global remote work possibility fitting David's location.",
+        "David's senior-level experience aligns with the job requirements."
       ],
       "should_apply": true,
       "is_new": false,
-      "found_date": "2026-07-20"
+      "found_date": "2026-07-27"
     },
     {
-      "id": "jobicy-149156",
-      "title": "Senior Full-stack Engineer (Python/React) - Advertising",
-      "company": "Truelogic",
-      "location": "LATAM",
-      "description": "At Truelogic we are a leading provider of nearshore staff augmentation services headquartered in New York. For over two decades, we\u2019ve been delivering top-tier technology solutions to companies of all sizes, from innovative startups to industry leaders, helping them achieve their digital transformation goals.",
-      "url": "https://jobicy.com/jobs/149156-senior-full-stack-engineer-python-react-advertising",
+      "id": "jobicy-149563",
+      "title": "Python and Kubernetes Software Engineer - Data, Workflows, AI/ML & Analytics",
+      "company": "Canonical Ltd.",
+      "location": "Anywhere",
+      "description": "<p>Canonical is a leading provider of open source software and operating systems to the global enterprise and technology markets. Our platform, Ubuntu, is very widely used in breakthrough enterprise initiatives such as public cloud, data science, AI, engineering innovation and IoT. Our customers include the world's leading public cloud and silicon providers, and industry leaders in many sectors. The company is a pioneer of global distributed collaboration, with 1000+ colleagues in 70+ countries and very few roles based in offices. Teams meet two to four times yearly in person, in interesting locations...</p>",
+      "url": "https://jobicy.com/jobs/149563-python-and-kubernetes-software-engineer-data-workflows-ai-ml-analytics",
       "salary": "Not disclosed",
       "tags": [
         "Software Engineering"
       ],
       "source": "Jobicy",
-      "posted_date": "2026-07-12",
-      "match_score": 65,
+      "posted_date": "2026-07-21",
+      "match_score": 87,
       "match_reasons": [
-        "Proficiency in Python and React directly applicable to the role.",
-        "Senior level position aligns with candidate\u2019s experience and skills.",
-        "Remote work options align with candidate\u2019s preference, although LATAM preference might be restrictive."
+        "David's experience with Python and Kubernetes matches the key technologies required.",
+        "Open-source software and global remote work environment fit David's profile.",
+        "David's experience in data workflows is relevant to the job description."
       ],
       "should_apply": true,
       "is_new": true,
-      "found_date": "2026-07-20"
+      "found_date": "2026-07-27"
     },
     {
-      "id": "jobicy-142198",
-      "title": "Java Backend Engineer (AI/LLM Chatbot, Customer Service)",
-      "company": "Binance",
-      "location": "APAC",
-      "description": "Binance is the leading global blockchain ecosystem and cryptocurrency infrastructure provider whose suite of financial products includes the world\u2019s largest digital-asset exchange.Our mission is to accelerate cryptocurrency adoption and increase the freedom of money. If you\u2019re looking for a fast-paced, mission-driven organization where opportunities to learn and excel are endless, then Binance is the place for you.",
-      "url": "https://jobicy.com/jobs/142198-java-backend-engineer-ai-llm-chatbot-customer-service",
+      "id": "jobicy-145562",
+      "title": "Senior Software Engineer- Java & Database Development",
+      "company": "Experian",
+      "location": "Costa Rica",
+      "description": "<h2>Company Description</h2><p>Experian is a global data and technology company, powering opportunities for people and businesses around the world. We operate across a range of markets, from financial services to healthcare, automotive, agribusiness, insurance, and many more. Experian invests in people and new advanced technologies to unlock the power of data. We have an amazing team of 25,200 people in 32 countries.</p><h2>Job Description</h2><p>We are looking for a Senior Software Engineer who enjoys building and improving reliable applications using Java and relational databases. You will...</p>",
+      "url": "https://jobicy.com/jobs/145562-senior-software-engineer-java-database-development",
       "salary": "Not disclosed",
       "tags": [
         "Software Engineering"
       ],
       "source": "Jobicy",
-      "posted_date": "2026-07-16",
-      "match_score": 50,
+      "posted_date": "2026-07-06",
+      "match_score": 85,
       "match_reasons": [
-        "Strong expertise in Java and back-end engineering aligns with role requirement.",
-        "Role is focused on AI/LLM chatbot which is an emerging interest aligning with the candidate's recent achievements.",
-        "The role's location preference might limit accessibility since it requires APAC timezone presence."
+        "Java and database development align well with David's skills in Spring and relational databases.",
+        "David's seniority level is suitable for a senior role in a global company.",
+        "While the location is specific, the alignment with Java makes it a worthy pursuit."
       ],
-      "should_apply": false,
+      "should_apply": true,
       "is_new": true,
-      "found_date": "2026-07-20"
+      "found_date": "2026-07-27"
+    },
+    {
+      "id": "jobicy-147758",
+      "title": "Senior Software Engineer (Java)",
+      "company": "Zartis",
+      "location": "Europe",
+      "description": "<div>\n<h2>The company and our mission:\u00a0</h2>\n<p>Zartis is a global AI transformation and technology consulting partner where talented engineers and technologists work on cutting edge innovation. We partner with ambitious organizations to design, build, and scale technology solutions that deliver real impact.</p>\n<p>Our teams bring deep expertise in AI driven platforms, secure API architectures, and cloud native engineering. You will work on meaningful projects that accelerate the adoption of advanced technologies, from strategy and discovery through to full product delivery, helping turn...</p>",
+      "url": "https://jobicy.com/jobs/147758-senior-software-engineer-java",
+      "salary": "Not disclosed",
+      "tags": [
+        "Software Engineering"
+      ],
+      "source": "Jobicy",
+      "posted_date": "2026-07-26",
+      "match_score": 80,
+      "match_reasons": [
+        "David's Java expertise is highly relevant for this position.",
+        "Experience with API architecture and cloud native technologies matches the job requirements.",
+        "Even though Europe location might pose a timezone challenge, the skills match is strong."
+      ],
+      "should_apply": true,
+      "is_new": true,
+      "found_date": "2026-07-27"
+    },
+    {
+      "id": "jobicy-149543",
+      "title": "Python Engineer",
+      "company": "Canonical Ltd.",
+      "location": "Anywhere",
+      "description": "<p>Canonical is a leading provider of open source software and operating systems to the global enterprise and technology markets. Our platform, Ubuntu, is very widely used in breakthrough enterprise initiatives such as public cloud, data science, AI, engineering innovation, and IoT. Our customers include the world's leading public cloud and silicon providers, and industry leaders in many sectors. The company is a pioneer of global distributed collaboration, with 1200+ colleagues in 75+ countries and very few office-based roles. Teams meet two to four times yearly in person, in interesting locations...</p>",
+      "url": "https://jobicy.com/jobs/149543-python-engineer",
+      "salary": "Not disclosed",
+      "tags": [
+        "Software Engineering"
+      ],
+      "source": "Jobicy",
+      "posted_date": "2026-07-21",
+      "match_score": 78,
+      "match_reasons": [
+        "Strong Python expertise aligns perfectly with this role's requirements.",
+        "Global remote role offers flexibility compatible with David's location in Africa.",
+        "David has relevant experience in open-source and distributed collaborative environments."
+      ],
+      "should_apply": true,
+      "is_new": true,
+      "found_date": "2026-07-27"
     }
   ]
 }
