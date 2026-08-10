@@ -1,15 +1,15 @@
 {
-  "last_updated": "2026-08-03T11:13:35.914769+00:00",
+  "last_updated": "2026-08-10T09:07:34.152014+00:00",
   "run_status": "completed",
-  "total_jobs": 3,
-  "new_this_run": 3,
+  "total_jobs": 2,
+  "new_this_run": 1,
   "jobs": [
     {
       "id": "remotive-2091062",
       "title": "Senior Product Engineer (Fullstack)",
       "company": "Clipster",
       "location": "Europe, UK, Germany, France, European timezones",
-      "description": "Clipster is a company...",
+      "description": "Fullstack engineer role requiring expertise in backend, frontend technologies. Involvement in distributed systems and infrastructure.",
       "url": "https://remotive.com/remote-jobs/software-development/senior-product-engineer-fullstack-2091062",
       "salary": "Not disclosed",
       "tags": [
@@ -20,72 +20,45 @@
         "postgresql",
         "react",
         "AI/ML",
-        "documentation",
-        "youtube",
         "Redis",
         "distributed systems",
         "GCP",
-        "chat",
-        "next.js",
-        "infrastructure"
+        "next.js"
       ],
       "source": "Remotive",
       "posted_date": "2026-07-13",
       "match_score": 80,
       "match_reasons": [
-        "Tech stack overlap: Strong match with React, PostgreSQL, Redis, and GCP.",
-        "Experience level: Direct match for senior level experience in full-stack development.",
-        "Role relevance: Aligned well with the candidate\u2019s trajectory in backend and AI/ML technologies."
+        "Tech stack overlap: Strong overlap with technologies like React, PostgreSQL, Redis, GCP, and Next.js.",
+        "Experience level fit: The senior fullstack role aligns with David's seniority and fullstack experience.",
+        "Role and domain relevance: Involvement in distributed systems is highly relevant to David's experience."
       ],
       "should_apply": true,
-      "is_new": true,
-      "found_date": "2026-08-03"
+      "is_new": false,
+      "found_date": "2026-08-10"
     },
     {
-      "id": "jobicy-150061",
-      "title": "Senior Backend Engineer, AI Engineering: Chat",
-      "company": "GitLab",
-      "location": "UK",
-      "description": "GitLab is the intelligent orchestration platform for DevSecOps...",
-      "url": "https://jobicy.com/jobs/150061-senior-backend-engineer-ai-engineering-chat",
+      "id": "jobicy-149543",
+      "title": "Python Engineer",
+      "company": "Canonical Ltd.",
+      "location": "Anywhere",
+      "description": "Open source software and operating systems development with Python. Global collaboration involving cloud, data science, AI, and more.",
+      "url": "https://jobicy.com/jobs/149543-python-engineer",
       "salary": "Not disclosed",
       "tags": [
         "Software Engineering"
       ],
       "source": "Jobicy",
-      "posted_date": "2026-08-01",
-      "match_score": 70,
+      "posted_date": "2026-07-21",
+      "match_score": 72,
       "match_reasons": [
-        "Tech stack overlap: Proficiency with backend engineering and interest in AI-related projects.",
-        "Experience level: Matches senior backend engineering with AI engineering focus.",
-        "Remote accessibility: At least partial remote possibility, although UK-based."
+        "Tech stack overlap: Extensive Python experience and cloud expertise align well with this role.",
+        "Remote accessibility: The 'Anywhere' location ensures full remote compatibility with David's location.",
+        "Role and domain relevance: The role's focus on open source aligns with David's interest in global collaboration."
       ],
       "should_apply": true,
       "is_new": true,
-      "found_date": "2026-08-03"
-    },
-    {
-      "id": "jobicy-148325",
-      "title": "Senior Backend Software Engineer (USA Remote)",
-      "company": "Turnitin, LLC",
-      "location": "USA",
-      "description": "Turnitin, LLC is a recognized innovator in global education...",
-      "url": "https://jobicy.com/jobs/148325-senior-backend-software-engineer-usa-remote",
-      "salary": "Not disclosed",
-      "tags": [
-        "Software Engineering"
-      ],
-      "source": "Jobicy",
-      "posted_date": "2026-07-28",
-      "match_score": 65,
-      "match_reasons": [
-        "Tech stack overlap: Strong alignment with backend technology stack used.",
-        "Experience level: Suitable fit for senior backend role with extensive experience.",
-        "Remote accessibility: Fully remote within USA timezone constraints."
-      ],
-      "should_apply": true,
-      "is_new": true,
-      "found_date": "2026-08-03"
+      "found_date": "2026-08-10"
     }
   ]
 }
