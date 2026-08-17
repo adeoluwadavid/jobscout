@@ -1,48 +1,38 @@
 {
-  "last_updated": "2026-08-10T09:07:34.152014+00:00",
+  "last_updated": "2026-08-17T08:32:05.801722+00:00",
   "run_status": "completed",
   "total_jobs": 2,
   "new_this_run": 1,
   "jobs": [
     {
-      "id": "remotive-2091062",
-      "title": "Senior Product Engineer (Fullstack)",
-      "company": "Clipster",
-      "location": "Europe, UK, Germany, France, European timezones",
-      "description": "Fullstack engineer role requiring expertise in backend, frontend technologies. Involvement in distributed systems and infrastructure.",
-      "url": "https://remotive.com/remote-jobs/software-development/senior-product-engineer-fullstack-2091062",
+      "id": "jobicy-149563",
+      "title": "Python and Kubernetes Software Engineer - Data, Workflows, AI/ML & Analytics",
+      "company": "Canonical Ltd.",
+      "location": "Anywhere",
+      "description": "Canonical is a leading provider of open source software and operating systems to the global enterprise and technology markets. Our platform, Ubuntu, is very widely used in breakthrough enterprise initiatives such as public cloud, data science, AI, engineering innovation, and IoT. Our customers include the world's leading public cloud and silicon providers, and industry leaders in many sectors. The company is a pioneer of global distributed collaboration, with 1000+ colleagues in 70+ countries and very few roles based in offices. Teams meet two to four times yearly in person, in interesting...",
+      "url": "https://jobicy.com/jobs/149563-python-and-kubernetes-software-engineer-data-workflows-ai-ml-analytics",
       "salary": "Not disclosed",
       "tags": [
-        "backend",
-        "frontend",
-        "fullstack",
-        "golang",
-        "postgresql",
-        "react",
-        "AI/ML",
-        "Redis",
-        "distributed systems",
-        "GCP",
-        "next.js"
+        "Software Engineering"
       ],
-      "source": "Remotive",
-      "posted_date": "2026-07-13",
-      "match_score": 80,
+      "source": "Jobicy",
+      "posted_date": "2026-07-21",
+      "match_score": 90,
       "match_reasons": [
-        "Tech stack overlap: Strong overlap with technologies like React, PostgreSQL, Redis, GCP, and Next.js.",
-        "Experience level fit: The senior fullstack role aligns with David's seniority and fullstack experience.",
-        "Role and domain relevance: Involvement in distributed systems is highly relevant to David's experience."
+        "Strong overlap with candidate's expertise in Python and Kubernetes.",
+        "Role is fully remote, aligning with candidate's location constraints.",
+        "Relevance to data and AI/ML matches candidate's recent professional focuses."
       ],
       "should_apply": true,
-      "is_new": false,
-      "found_date": "2026-08-10"
+      "is_new": true,
+      "found_date": "2026-08-17"
     },
     {
       "id": "jobicy-149543",
       "title": "Python Engineer",
       "company": "Canonical Ltd.",
       "location": "Anywhere",
-      "description": "Open source software and operating systems development with Python. Global collaboration involving cloud, data science, AI, and more.",
+      "description": "Canonical is a leading provider of open source software and operating systems to the global enterprise and technology markets. Our platform, Ubuntu, is very widely used in breakthrough enterprise initiatives such as public cloud, data science, AI, engineering innovation, and IoT. Our customers include the world's leading public cloud and silicon providers, and industry leaders in many sectors. The company is a pioneer of global distributed collaboration, with 1200+ colleagues in 75+ countries and very few office-based roles. Teams meet two to four times yearly in person, in interesting...",
       "url": "https://jobicy.com/jobs/149543-python-engineer",
       "salary": "Not disclosed",
       "tags": [
@@ -50,15 +40,15 @@
       ],
       "source": "Jobicy",
       "posted_date": "2026-07-21",
-      "match_score": 72,
+      "match_score": 85,
       "match_reasons": [
-        "Tech stack overlap: Extensive Python experience and cloud expertise align well with this role.",
-        "Remote accessibility: The 'Anywhere' location ensures full remote compatibility with David's location.",
-        "Role and domain relevance: The role's focus on open source aligns with David's interest in global collaboration."
+        "Candidate's expertise in Python aligns perfectly with job requirements.",
+        "Fully remote role fits candidate's location and remote work preference.",
+        "Canonical's focus on open-source projects aligns with candidate's interests and past experiences."
       ],
       "should_apply": true,
-      "is_new": true,
-      "found_date": "2026-08-10"
+      "is_new": false,
+      "found_date": "2026-08-17"
     }
   ]
 }
