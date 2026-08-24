@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-08-17T08:32:05.801722+00:00",
+  "last_updated": "2026-08-24T08:37:17.000246+00:00",
   "run_status": "completed",
-  "total_jobs": 2,
-  "new_this_run": 1,
+  "total_jobs": 4,
+  "new_this_run": 3,
   "jobs": [
     {
       "id": "jobicy-149563",
@@ -16,39 +16,108 @@
         "Software Engineering"
       ],
       "source": "Jobicy",
-      "posted_date": "2026-07-21",
-      "match_score": 90,
+      "posted_date": "2026-08-22",
+      "match_score": 100,
       "match_reasons": [
-        "Strong overlap with candidate's expertise in Python and Kubernetes.",
-        "Role is fully remote, aligning with candidate's location constraints.",
-        "Relevance to data and AI/ML matches candidate's recent professional focuses."
+        "Tech stack overlap: Strong match with Python, Kubernetes, and Software Engineering.",
+        "Experience level fit: Perfect alignment with David's seniority and experience in software engineering.",
+        "Remote accessibility: Fully remote position with no location restrictions."
       ],
       "should_apply": true,
-      "is_new": true,
-      "found_date": "2026-08-17"
+      "is_new": false,
+      "found_date": "2026-08-24"
     },
     {
-      "id": "jobicy-149543",
-      "title": "Python Engineer",
+      "id": "jobicy-151013",
+      "title": "Distributed Systems Testing Software Engineer, Python / Go",
       "company": "Canonical Ltd.",
       "location": "Anywhere",
       "description": "Canonical is a leading provider of open source software and operating systems to the global enterprise and technology markets. Our platform, Ubuntu, is very widely used in breakthrough enterprise initiatives such as public cloud, data science, AI, engineering innovation, and IoT. Our customers include the world's leading public cloud and silicon providers, and industry leaders in many sectors. The company is a pioneer of global distributed collaboration, with 1200+ colleagues in 75+ countries and very few office-based roles. Teams meet two to four times yearly in person, in interesting...",
-      "url": "https://jobicy.com/jobs/149543-python-engineer",
+      "url": "https://jobicy.com/jobs/151013-distributed-systems-testing-software-engineer-python-go",
+      "salary": "Not disclosed",
+      "tags": [
+        "QA & Testing"
+      ],
+      "source": "Jobicy",
+      "posted_date": "2026-08-18",
+      "match_score": 80,
+      "match_reasons": [
+        "Tech stack overlap: Strong Python skills align well with the requirements.",
+        "Experience level fit: Experience with distributed systems and testing suits David's senior expertise.",
+        "Remote accessibility: Position is fully remote, allowing work from anywhere."
+      ],
+      "should_apply": true,
+      "is_new": true,
+      "found_date": "2026-08-24"
+    },
+    {
+      "id": "remotive-2069746",
+      "title": "Tech Lead Full-Stack Rails Engineer",
+      "company": "Mitre Media",
+      "location": "USA, Canada, USA timezones",
+      "description": "About Mitre Media Mitre Media is...",
+      "url": "https://remotive.com/remote-jobs/software-development/tech-lead-full-stack-rails-engineer-2069746",
+      "salary": "$170k - $200k",
+      "tags": [
+        "api",
+        "CSS",
+        "docker",
+        "elasticsearch",
+        "fullstack",
+        "html",
+        "javascript",
+        "kubernetes",
+        "postgresql",
+        "react",
+        "ror",
+        "ruby/rails",
+        "AI/ML",
+        "CAD",
+        "advertising",
+        "Redis",
+        "ES6",
+        "web applications",
+        "MySQL",
+        "NLP",
+        "fintech",
+        "Micro services",
+        "github",
+        "system architecture"
+      ],
+      "source": "Remotive",
+      "posted_date": "2026-08-14",
+      "match_score": 70,
+      "match_reasons": [
+        "Tech stack overlap: Good alignment with Docker, Kubernetes, JavaScript, and React.",
+        "Experience level fit: The tech lead role aligns with David\u2019s senior engineering experience.",
+        "Remote accessibility: Remote within the USA timezones; may require time zone flexibility."
+      ],
+      "should_apply": true,
+      "is_new": true,
+      "found_date": "2026-08-24"
+    },
+    {
+      "id": "jobicy-142198",
+      "title": "Java Backend Engineer (AI/LLM Chatbot, Customer Service)",
+      "company": "Binance",
+      "location": "APAC",
+      "description": "Binance is the leading global blockchain ecosystem and cryptocurrency infrastructure provider whose suite of financial products includes the world\u2019s largest digital-asset exchange. Our mission is to accelerate cryptocurrency adoption and increase the freedom of money. Responsibilities Development and implementation Backend service for the AI Chatbot products. Build large scale software system, which can impact...",
+      "url": "https://jobicy.com/jobs/142198-java-backend-engineer-ai-llm-chatbot-customer-service",
       "salary": "Not disclosed",
       "tags": [
         "Software Engineering"
       ],
       "source": "Jobicy",
-      "posted_date": "2026-07-21",
-      "match_score": 85,
+      "posted_date": "2026-08-17",
+      "match_score": 65,
       "match_reasons": [
-        "Candidate's expertise in Python aligns perfectly with job requirements.",
-        "Fully remote role fits candidate's location and remote work preference.",
-        "Canonical's focus on open-source projects aligns with candidate's interests and past experiences."
+        "Tech stack overlap: Strong with Java and backend service development.",
+        "Experience level fit: Suited for David's senior-level expertise in Java.",
+        "Remote accessibility: Restriction to the APAC region may affect working hours."
       ],
       "should_apply": true,
-      "is_new": false,
-      "found_date": "2026-08-17"
+      "is_new": true,
+      "found_date": "2026-08-24"
     }
   ]
 }
