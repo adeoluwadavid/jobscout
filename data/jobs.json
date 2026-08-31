@@ -1,15 +1,15 @@
 {
-  "last_updated": "2026-08-24T08:37:17.000246+00:00",
+  "last_updated": "2026-08-31T15:40:58.537259+00:00",
   "run_status": "completed",
-  "total_jobs": 4,
-  "new_this_run": 3,
+  "total_jobs": 3,
+  "new_this_run": 2,
   "jobs": [
     {
       "id": "jobicy-149563",
       "title": "Python and Kubernetes Software Engineer - Data, Workflows, AI/ML & Analytics",
-      "company": "Canonical Ltd.",
+      "company": "Canonical",
       "location": "Anywhere",
-      "description": "Canonical is a leading provider of open source software and operating systems to the global enterprise and technology markets. Our platform, Ubuntu, is very widely used in breakthrough enterprise initiatives such as public cloud, data science, AI, engineering innovation, and IoT. Our customers include the world's leading public cloud and silicon providers, and industry leaders in many sectors. The company is a pioneer of global distributed collaboration, with 1000+ colleagues in 70+ countries and very few roles based in offices. Teams meet two to four times yearly in person, in interesting...",
+      "description": "Canonical is a leading provider of open source software and operating systems to the global enterprise and technology markets. Our platform, Ubuntu, is very widely used in breakthrough enterprise initiatives such as public cloud, data science, AI, engineering innovation and IoT. Our customers include the world's leading public cloud and silicon providers, and industry leaders in many sectors. The company is a pioneer of global distributed collaboration, with 1000+ colleagues in 70+ countries and very few roles based in offices.",
       "url": "https://jobicy.com/jobs/149563-python-and-kubernetes-software-engineer-data-workflows-ai-ml-analytics",
       "salary": "Not disclosed",
       "tags": [
@@ -17,107 +17,61 @@
       ],
       "source": "Jobicy",
       "posted_date": "2026-08-22",
-      "match_score": 100,
+      "match_score": 90,
       "match_reasons": [
-        "Tech stack overlap: Strong match with Python, Kubernetes, and Software Engineering.",
-        "Experience level fit: Perfect alignment with David's seniority and experience in software engineering.",
-        "Remote accessibility: Fully remote position with no location restrictions."
+        "Extensive experience with Python, which is a primary technology requirement.",
+        "Strong Kubernetes skills, aligning with the job's focus on cloud technologies.",
+        "Role is fully remote, accommodating the candidate's location in Nigeria."
       ],
       "should_apply": true,
       "is_new": false,
-      "found_date": "2026-08-24"
+      "found_date": "2026-08-31"
     },
     {
-      "id": "jobicy-151013",
-      "title": "Distributed Systems Testing Software Engineer, Python / Go",
-      "company": "Canonical Ltd.",
+      "id": "jobicy-149543",
+      "title": "Python Engineer",
+      "company": "Canonical",
       "location": "Anywhere",
-      "description": "Canonical is a leading provider of open source software and operating systems to the global enterprise and technology markets. Our platform, Ubuntu, is very widely used in breakthrough enterprise initiatives such as public cloud, data science, AI, engineering innovation, and IoT. Our customers include the world's leading public cloud and silicon providers, and industry leaders in many sectors. The company is a pioneer of global distributed collaboration, with 1200+ colleagues in 75+ countries and very few office-based roles. Teams meet two to four times yearly in person, in interesting...",
-      "url": "https://jobicy.com/jobs/151013-distributed-systems-testing-software-engineer-python-go",
-      "salary": "Not disclosed",
-      "tags": [
-        "QA & Testing"
-      ],
-      "source": "Jobicy",
-      "posted_date": "2026-08-18",
-      "match_score": 80,
-      "match_reasons": [
-        "Tech stack overlap: Strong Python skills align well with the requirements.",
-        "Experience level fit: Experience with distributed systems and testing suits David's senior expertise.",
-        "Remote accessibility: Position is fully remote, allowing work from anywhere."
-      ],
-      "should_apply": true,
-      "is_new": true,
-      "found_date": "2026-08-24"
-    },
-    {
-      "id": "remotive-2069746",
-      "title": "Tech Lead Full-Stack Rails Engineer",
-      "company": "Mitre Media",
-      "location": "USA, Canada, USA timezones",
-      "description": "About Mitre Media Mitre Media is...",
-      "url": "https://remotive.com/remote-jobs/software-development/tech-lead-full-stack-rails-engineer-2069746",
-      "salary": "$170k - $200k",
-      "tags": [
-        "api",
-        "CSS",
-        "docker",
-        "elasticsearch",
-        "fullstack",
-        "html",
-        "javascript",
-        "kubernetes",
-        "postgresql",
-        "react",
-        "ror",
-        "ruby/rails",
-        "AI/ML",
-        "CAD",
-        "advertising",
-        "Redis",
-        "ES6",
-        "web applications",
-        "MySQL",
-        "NLP",
-        "fintech",
-        "Micro services",
-        "github",
-        "system architecture"
-      ],
-      "source": "Remotive",
-      "posted_date": "2026-08-14",
-      "match_score": 70,
-      "match_reasons": [
-        "Tech stack overlap: Good alignment with Docker, Kubernetes, JavaScript, and React.",
-        "Experience level fit: The tech lead role aligns with David\u2019s senior engineering experience.",
-        "Remote accessibility: Remote within the USA timezones; may require time zone flexibility."
-      ],
-      "should_apply": true,
-      "is_new": true,
-      "found_date": "2026-08-24"
-    },
-    {
-      "id": "jobicy-142198",
-      "title": "Java Backend Engineer (AI/LLM Chatbot, Customer Service)",
-      "company": "Binance",
-      "location": "APAC",
-      "description": "Binance is the leading global blockchain ecosystem and cryptocurrency infrastructure provider whose suite of financial products includes the world\u2019s largest digital-asset exchange. Our mission is to accelerate cryptocurrency adoption and increase the freedom of money. Responsibilities Development and implementation Backend service for the AI Chatbot products. Build large scale software system, which can impact...",
-      "url": "https://jobicy.com/jobs/142198-java-backend-engineer-ai-llm-chatbot-customer-service",
+      "description": "Canonical is a leading provider of open source software and operating systems to the global enterprise and technology markets. Our platform, Ubuntu, is very widely used in breakthrough enterprise initiatives such as public cloud, data science, AI, engineering innovation, and IoT. Our customers include the world's leading public cloud and silicon providers, and industry leaders in many sectors. The company is a pioneer of global distributed collaboration, with 1200+ colleagues in 75+ countries and very few office-based roles.",
+      "url": "https://jobicy.com/jobs/149543-python-engineer",
       "salary": "Not disclosed",
       "tags": [
         "Software Engineering"
       ],
       "source": "Jobicy",
-      "posted_date": "2026-08-17",
-      "match_score": 65,
+      "posted_date": "2026-08-22",
+      "match_score": 85,
       "match_reasons": [
-        "Tech stack overlap: Strong with Java and backend service development.",
-        "Experience level fit: Suited for David's senior-level expertise in Java.",
-        "Remote accessibility: Restriction to the APAC region may affect working hours."
+        "Proficient with Python, which is the primary language required for this role.",
+        "Fully remote role, which aligns with candidate's preference to work from Nigeria.",
+        "Canonical's focus on cloud and open source aligns with candidate's experience."
       ],
       "should_apply": true,
       "is_new": true,
-      "found_date": "2026-08-24"
+      "found_date": "2026-08-31"
+    },
+    {
+      "id": "muse-5360945",
+      "title": "Senior Software Engineer (Backend)",
+      "company": "Players' Lounge",
+      "location": "Flexible / Remote, Manchester, United Kingdom, New Orleans, LA, New York, NY",
+      "description": "We are looking for a Senior Software Engineer interested in building performant and reliable APIs. You will be responsible for architecting and building new APIs that power our core web and mobile applications. Additionally, you will coordinate with teams responsible for other layers of the product infrastructure. Building a product is a highly collaborative effort, and as such, a strong team player with a commitment to perfection is required.",
+      "url": "https://www.themuse.com/jobs/playerslounge/senior-software-engineer-backend-678ebb",
+      "salary": "Not disclosed",
+      "tags": [
+        "Senior Level"
+      ],
+      "source": "The Muse",
+      "posted_date": "2021-03-05",
+      "match_score": 65,
+      "match_reasons": [
+        "Senior-level backend engineering role fits candidate's experience and expertise.",
+        "Role is committed to remote work flexibility, suitable for candidate's location.",
+        "Opportunity to architect and build APIs aligns with the candidate's recent achievements."
+      ],
+      "should_apply": true,
+      "is_new": true,
+      "found_date": "2026-08-31"
     }
   ]
 }
