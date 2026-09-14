@@ -1,145 +1,105 @@
 {
-  "last_updated": "2026-09-07T13:48:51.380910+00:00",
+  "last_updated": "2026-09-14T14:34:21.721819+00:00",
   "run_status": "completed",
   "total_jobs": 4,
-  "new_this_run": 4,
+  "new_this_run": 3,
   "jobs": [
     {
-      "id": "remotive-2091101",
-      "title": "Senior React Full-stack Developer",
-      "company": "Lemon.io",
-      "location": "LATAM, Europe, USA, Canada, APAC",
-      "description": "<p>Are you a talented Senior Developer looking for a remote job that lets you show your skills and get decent compensation? Look no further than <a href=\"https://lemon.io/for-developers/?utm_source=remotive&amp;utm_medium=job_ad&amp;utm_campaign=supply_en_full_stack_react/node_aug_2026_job_ad\" rel=\"nofollow\" target=\"_self\">Lemon.io</a> \u2014 the marketplace that connects you with hand-picked startups in the US and Europe.</p>\n<p><strong>\u00a0</strong></p>\n<p><strong>What we offer:</strong></p>\n<ul style=\"\">\n<li style=\"\">The rate depends on your seniority level, skills and experience. We've already...",
-      "url": "https://remotive.com/remote-jobs/software-development/senior-react-full-stack-developer-2091101",
+      "id": "jobicy-149563",
+      "title": "Python and Kubernetes Software Engineer - Data, Workflows, AI/ML & Analytics",
+      "company": "Canonical",
+      "location": "Anywhere",
+      "description": "Canonical is hiring a Software Engineer experienced in Python and Kubernetes.",
+      "url": "https://jobicy.com/jobs/149563-python-and-kubernetes-software-engineer-data-workflows-ai-ml-analytics",
       "salary": "Not disclosed",
       "tags": [
-        ".Net",
-        "android",
-        "AWS",
-        "backend",
-        "C",
-        "C#",
-        "C++",
-        "data science",
-        "fullstack",
-        "golang",
-        "ios",
-        "java",
-        "javascript",
-        "node.js",
-        "php",
-        "python",
-        "react",
-        "react js",
-        "ruby/rails",
-        "scala",
-        "shopify",
-        "swift",
-        "UI/UX",
-        "wordpress",
-        "blockchain",
-        "AI/ML",
-        "automation",
-        "project management",
-        "react native",
-        "rust",
-        "unity",
-        "electron",
-        "spring",
-        "laravel",
-        "Ethereum",
-        "graphic design",
-        "Typescript ",
-        "angular ",
-        "firebase",
-        "data engineering",
-        "Site Reliability",
-        "Symfony",
-        "startup",
-        "marketplace",
-        "next.js",
-        "flutter"
+        "Software Engineering",
+        "Python",
+        "Kubernetes"
       ],
-      "source": "Remotive",
-      "posted_date": "2026-08-27",
-      "match_score": 85,
+      "source": "Jobicy",
+      "posted_date": "2026-08-22",
+      "match_score": 90,
       "match_reasons": [
-        "Strong tech stack match, including Java, JavaScript, Python, AWS, Node.js, and React.",
-        "Role is fully remote with no location restrictions, making it accessible from Nigeria.",
-        "Candidate has proven experience in full-stack development with over 7 years of expertise."
+        "Strong alignment with required tech stack: Python and Kubernetes expertise.",
+        "Fully remote role with no location restrictions \u2014 perfectly matches candidate's needs.",
+        "Role aligns well with candidate's backend engineering and DevOps experience."
       ],
       "should_apply": true,
       "is_new": true,
-      "found_date": "2026-09-07"
+      "found_date": "2026-09-14"
     },
     {
       "id": "jobicy-152675",
       "title": "Senior Software Engineer - Java/Microservices",
       "company": "Tenable",
       "location": "USA",
-      "description": "<p><strong>Who is Tenable?</strong></p>\n<p>Tenable\u00ae is the Exposure Management company. Over 40,000 organizations around the globe rely on Tenable to understand and reduce cyber risk. Our global employees support 65 percent of the Fortune 500, 50 percent of the Global 2000, and large government agencies. Come be part of our journey!</p>\n<p><strong>What makes Tenable such a great place to work?</strong></p>\n<p>Ask a member of our team and they\u2019ll answer, \u201cOur people!\u201d We work together to build and innovate best-in-class cybersecurity solutions for our customers; all while creating a culture of...",
+      "description": "Tenable seeks a Senior Software Engineer to develop microservices in a remote team environment.",
       "url": "https://jobicy.com/jobs/152675-senior-software-engineer-java-microservices",
       "salary": "Not disclosed",
       "tags": [
-        "Software Engineering"
+        "Software Engineering",
+        "Java",
+        "Microservices"
       ],
       "source": "Jobicy",
       "posted_date": "2026-09-06",
+      "match_score": 85,
+      "match_reasons": [
+        "Excellent match with tech stack: Java and Microservices align strongly.",
+        "Role is remote, which suits the candidate's location constraints.",
+        "Candidate's experience in software engineering and microservices is a strong fit."
+      ],
+      "should_apply": true,
+      "is_new": false,
+      "found_date": "2026-09-14"
+    },
+    {
+      "id": "jobicy-150364",
+      "title": "Software Engineer - Python - Container Images",
+      "company": "Canonical",
+      "location": "APAC, EMEA, LATAM, Canada, USA",
+      "description": "Canonical seeks a Software Engineer to work on container images using Python.",
+      "url": "https://jobicy.com/jobs/150364-software-engineer-python-container-images",
+      "salary": "Not disclosed",
+      "tags": [
+        "Software Engineering",
+        "Python"
+      ],
+      "source": "Jobicy",
+      "posted_date": "2026-09-10",
+      "match_score": 80,
+      "match_reasons": [
+        "Tech stack alignment: Strong Python expertise.",
+        "Role is remote with coverage in significant areas matching candidate's location needs.",
+        "Experience with containerization/Docker works well with the job requirements."
+      ],
+      "should_apply": true,
+      "is_new": true,
+      "found_date": "2026-09-14"
+    },
+    {
+      "id": "jobicy-153209",
+      "title": "Sr. Software Engineer, Platform",
+      "company": "Help Scout",
+      "location": "USA",
+      "description": "Help Scout is looking for a Senior Software Engineer to join their platform team. This position is fully remote.",
+      "url": "https://jobicy.com/jobs/153209-sr-software-engineer-platform",
+      "salary": "Not disclosed",
+      "tags": [
+        "Software Engineering"
+      ],
+      "source": "Jobicy",
+      "posted_date": "2026-09-14",
       "match_score": 75,
       "match_reasons": [
-        "Relevant experience with Java and microservices architecture.",
-        "Role likely involves working with REST APIs and cloud technologies, aligning with the candidate's skills.",
-        "Position requires a senior engineer, which fits the candidate\u2019s seniority level."
+        "Position is fully remote, aligning with candidate's requirements.",
+        "Senior level fits well with candidate's current seniority.",
+        "Role in software engineering matches candidate's expertise."
       ],
       "should_apply": true,
       "is_new": true,
-      "found_date": "2026-09-07"
-    },
-    {
-      "id": "jobicy-152522",
-      "title": "Senior Java Engineer",
-      "company": "Zuora",
-      "location": "USA",
-      "description": "<p><strong>About Zuora</strong></p>\n<p>At Zuora, we help businesses grow smarter and adapt faster. Our platform powers modern business models \u2014 from subscriptions and usage-based pricing to AI-driven and outcome-based offerings \u2014 helping companies launch new products, automate complex billing, and unlock predictable, recurring revenue.</p>\n<p>We\u2019ve led the Subscription Economy for more than a decade. Now we\u2019re evolving again by building the definitive platform for quote to cash and helping companies monetize their products and services with an adaptable, AI-ready...",
-      "url": "https://jobicy.com/jobs/152522-senior-java-engineer",
-      "salary": "Not disclosed",
-      "tags": [
-        "Software Engineering"
-      ],
-      "source": "Jobicy",
-      "posted_date": "2026-09-04",
-      "match_score": 70,
-      "match_reasons": [
-        "Direct alignment with Java engineering and significant backend tasks.",
-        "Candidate\u2019s proven experience with Spring Framework is a match.",
-        "Senior level requirement aligns with the candidate's expertise."
-      ],
-      "should_apply": true,
-      "is_new": true,
-      "found_date": "2026-09-07"
-    },
-    {
-      "id": "jobicy-150065",
-      "title": "Data/ Java Engineer (AI/LLM Chatbot, Customer Service)",
-      "company": "Binance",
-      "location": "APAC",
-      "description": "<div>Binance is the leading global blockchain ecosystem and cryptocurrency infrastructure provider whose suite of financial products includes the world\u2019s largest digital-asset exchange.</div><div>Our mission is to accelerate cryptocurrency adoption and increase the freedom of money.</div><div>\u00a0</div><div>If you\u2019re looking for a fast-paced, mission-driven organization where opportunities to learn and excel are endless, then Binance is the place for you.</div><h2>Responsibilities</h2><ul>\r\n<li>Development and implementation Backend service for the AI Chatbot products.</li>\r\n<li>Build large...",
-      "url": "https://jobicy.com/jobs/150065-data-java-engineer-ai-llm-chatbot-customer-service",
-      "salary": "Not disclosed",
-      "tags": [
-        "Software Engineering"
-      ],
-      "source": "Jobicy",
-      "posted_date": "2026-09-02",
-      "match_score": 60,
-      "match_reasons": [
-        "Experience with Java and backend service development matches the job requirements.",
-        "Potential alignment with AI-driven technologies complements candidate's AI interest.",
-        "APAC location preference does not align with the candidate's location, reducing match score."
-      ],
-      "should_apply": false,
-      "is_new": true,
-      "found_date": "2026-09-07"
+      "found_date": "2026-09-14"
     }
   ]
 }
