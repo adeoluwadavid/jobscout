@@ -1,15 +1,15 @@
 {
-  "last_updated": "2026-11-09T17:58:46.278525+00:00",
+  "last_updated": "2026-11-16T17:40:32.330462+00:00",
   "run_status": "completed",
-  "total_jobs": 4,
-  "new_this_run": 1,
+  "total_jobs": 2,
+  "new_this_run": 0,
   "jobs": [
     {
       "id": "remotive-2091165",
       "title": "Full-Stack Developer",
       "company": "Fluence International, Inc.",
       "location": "Worldwide",
-      "description": "We\u2019re looking for a pragmatic, security-minded Full-Stack Developer to help build and scale Fluence\u2019s B2B products used by clinicians, researchers, and organizations in psychedelic-assisted therapy and mental health. You\u2019ll work closely with and report to our Senior AI & Design Lead to turn product...",
+      "description": "<p dir=\"ltr\" style=\"line-height: 1.3800000000000001; margin-top: 12pt; margin-bottom: 12pt;\"><span style=\"color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;\">We\u2019re looking for a pragmatic, security-minded Full-Stack Developer to help build and scale Fluence\u2019s B2B products used by clinicians, researchers, and organizations in psychedelic-assisted therapy and mental health. You\u2019ll work closely with and report to our Senior AI &amp; Design Lead to turn product...",
       "url": "https://remotive.com/remote-jobs/software-development/full-stack-developer-2091165",
       "salary": "$3.5k\u2013$5k/month",
       "tags": [
@@ -29,7 +29,7 @@
         "automation",
         "documentation",
         "healthcare",
-        "Typescript",
+        "Typescript ",
         "web applications",
         "SOLID",
         "JSON",
@@ -43,90 +43,22 @@
       ],
       "source": "Remotive",
       "posted_date": "2026-10-29",
-      "match_score": 89,
+      "match_score": 90,
       "match_reasons": [
-        "Excellent tech stack overlap with technologies like AWS, Docker, JavaScript, React, and Next.js being key skills.",
-        "Fully remote role with no location restrictions, allowing work from Nigeria.",
-        "Role aligns well with David's trajectory in building scalable B2B products and working in health tech."
+        "Tech stack overlap: Uses AWS, Docker, JavaScript, TypeScript, React, and Next.js, which are all tools the candidate excels in.",
+        "Remote accessibility: Role is fully remote with no specific location requirement, suitable for working from Nigeria.",
+        "Role relevance: Full-stack development is in line with the candidate's extensive experience in building B2B products."
       ],
       "should_apply": true,
       "is_new": false,
-      "found_date": "2026-11-09"
-    },
-    {
-      "id": "remotive-2091135",
-      "title": "Senior Back-end Developer",
-      "company": "Lemon.io",
-      "location": "Europe, USA, Canada, Australia, Singapore, Mexico, Saudi Arabia",
-      "description": "Lemon.io helps companies in the US and Europe hire experienced engineers, from funded startups to teams like Klarna, Retool, and Pinterest. We\u2019ve been doing this since 2015, and more than 1,500 companies have hired engineers through us...",
-      "url": "https://remotive.com/remote-jobs/software-development/senior-back-end-developer-2091135",
-      "salary": "Not disclosed",
-      "tags": [
-        ".Net",
-        "android",
-        "C",
-        "C#",
-        "C++",
-        "cloud",
-        "data science",
-        "golang",
-        "ios",
-        "java",
-        "javascript",
-        "kubernetes",
-        "node.js",
-        "php",
-        "python",
-        "react",
-        "ruby/rails",
-        "scala",
-        "shopify",
-        "swift",
-        "UI/UX",
-        "wordpress",
-        "blockchain",
-        "AI/ML",
-        "automation",
-        "project management",
-        "react native",
-        "rust",
-        "unity",
-        "electron",
-        "spring",
-        "laravel",
-        "Ethereum",
-        "graphic design",
-        "Typescript",
-        "distributed systems",
-        "angular",
-        "firebase",
-        "data engineering",
-        "Site Reliability",
-        "Symfony",
-        "Linux/Unix",
-        "next.js",
-        "infrastructure",
-        "flutter",
-        "GPU"
-      ],
-      "source": "Remotive",
-      "posted_date": "2026-10-27",
-      "match_score": 82,
-      "match_reasons": [
-        "Broad tech stack match with key skills in Java, JavaScript, Python, Node.js, and React.",
-        "The position is open to international candidates within the specified countries and regions, providing flexibility.",
-        "Senior level aligns with David's extensive experience and backend expertise."
-      ],
-      "should_apply": true,
-      "is_new": false,
-      "found_date": "2026-11-09"
+      "found_date": "2026-11-16"
     },
     {
       "id": "remotive-2069746",
       "title": "Tech Lead Full-Stack Rails Engineer",
       "company": "Mitre Media",
       "location": "USA, Canada, USA timezones",
-      "description": "About Mitre Media Mitre Media is...",
+      "description": "<p class=\"h1\" dir=\"ltr\" style=\"line-height: 1.38; background-color: #ffffff; margin-top: 24pt; margin-bottom: 0pt; padding: 0pt 0pt 6pt 0pt;\"><span style=\"color: #000000; font-weight: bold; white-space-collapse: preserve;\">About Mitre Media</span></p>\n<p dir=\"ltr\" style=\"line-height: 1.38; background-color: #ffffff; margin-top: 0pt; margin-bottom: 0pt; padding: 0pt 0pt 18pt 0pt;\"><span style=\"color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;\">Mitre Media is...",
       "url": "https://remotive.com/remote-jobs/software-development/tech-lead-full-stack-rails-engineer-2069746",
       "salary": "$170k - $200k",
       "tags": [
@@ -156,39 +88,16 @@
         "system architecture"
       ],
       "source": "Remotive",
-      "posted_date": "2026-10-14",
-      "match_score": 78,
+      "posted_date": "2026-11-14",
+      "match_score": 64,
       "match_reasons": [
-        "Strong tech stack fit with Docker, JavaScript, PostgreSQL, React, and Kubernetes being part of David's expertise.",
-        "Role is predominantly remote but prefers candidates in the USA time zone; partial match for remote work consideration.",
-        "Relevant leadership role as a tech lead aligns with David's skills in system architecture and microservices."
-      ],
-      "should_apply": true,
-      "is_new": false,
-      "found_date": "2026-11-09"
-    },
-    {
-      "id": "jobicy-159679",
-      "title": "Senior Full Stack Engineer",
-      "company": "infisical",
-      "location": "Brazil, Canada, Europe, USA",
-      "description": "Infisical is the open source security infrastructure platform that engineers use for secrets management, certificates, and privileged access management. We help developers and organizations securely manage billions of secrets every month...",
-      "url": "https://jobicy.com/jobs/159679-senior-full-stack-engineer-10",
-      "salary": "Not disclosed",
-      "tags": [
-        "Software Engineering"
-      ],
-      "source": "Jobicy",
-      "posted_date": "2026-11-08",
-      "match_score": 60,
-      "match_reasons": [
-        "Position aligns well with full-stack and senior-level experience in software engineering.",
-        "No specific tech stack mentioned, limiting precise skill fit evaluation.",
-        "Geographic flexibility is somewhat limited but manageable given the regions specified."
+        "Tech stack overlap: Includes Docker, Kubernetes, JavaScript, React, PostgreSQL, and Redis, which align with the candidate's skills.",
+        "Experience level fit: The position is a lead role, which fits the candidate's seniority level.",
+        "Remote restriction: Preferable timezone is USA, Canada which may affect collaboration from Nigeria but is not a total blocker."
       ],
       "should_apply": false,
-      "is_new": true,
-      "found_date": "2026-11-09"
+      "is_new": false,
+      "found_date": "2026-11-16"
     }
   ]
 }
