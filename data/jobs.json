@@ -1,15 +1,15 @@
 {
-  "last_updated": "2026-11-16T17:40:32.330462+00:00",
+  "last_updated": "2026-11-23T19:39:17.518720+00:00",
   "run_status": "completed",
   "total_jobs": 2,
-  "new_this_run": 0,
+  "new_this_run": 1,
   "jobs": [
     {
       "id": "remotive-2091165",
       "title": "Full-Stack Developer",
       "company": "Fluence International, Inc.",
       "location": "Worldwide",
-      "description": "<p dir=\"ltr\" style=\"line-height: 1.3800000000000001; margin-top: 12pt; margin-bottom: 12pt;\"><span style=\"color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;\">We\u2019re looking for a pragmatic, security-minded Full-Stack Developer to help build and scale Fluence\u2019s B2B products used by clinicians, researchers, and organizations in psychedelic-assisted therapy and mental health. You\u2019ll work closely with and report to our Senior AI &amp; Design Lead to turn product...",
+      "description": "We\u2019re looking for a pragmatic, security-minded Full-Stack Developer to help build and scale Fluence\u2019s B2B products used by clinicians, researchers, and organizations in psychedelic-assisted therapy and mental health. You\u2019ll work closely with and report to our Senior AI & Design Lead to turn product...",
       "url": "https://remotive.com/remote-jobs/software-development/full-stack-developer-2091165",
       "salary": "$3.5k\u2013$5k/month",
       "tags": [
@@ -43,61 +43,38 @@
       ],
       "source": "Remotive",
       "posted_date": "2026-10-29",
-      "match_score": 90,
+      "match_score": 85,
       "match_reasons": [
-        "Tech stack overlap: Uses AWS, Docker, JavaScript, TypeScript, React, and Next.js, which are all tools the candidate excels in.",
-        "Remote accessibility: Role is fully remote with no specific location requirement, suitable for working from Nigeria.",
-        "Role relevance: Full-stack development is in line with the candidate's extensive experience in building B2B products."
+        "Strong tech stack overlap with AWS, Docker, JavaScript/TypeScript, and React matching candidate's skills.",
+        "Experience in health tech domain aligns well with the company's focus.",
+        "Position is fully remote with no location restrictions, suitable for the candidate's location in Nigeria."
       ],
       "should_apply": true,
       "is_new": false,
-      "found_date": "2026-11-16"
+      "found_date": "2026-11-23"
     },
     {
-      "id": "remotive-2069746",
-      "title": "Tech Lead Full-Stack Rails Engineer",
-      "company": "Mitre Media",
-      "location": "USA, Canada, USA timezones",
-      "description": "<p class=\"h1\" dir=\"ltr\" style=\"line-height: 1.38; background-color: #ffffff; margin-top: 24pt; margin-bottom: 0pt; padding: 0pt 0pt 6pt 0pt;\"><span style=\"color: #000000; font-weight: bold; white-space-collapse: preserve;\">About Mitre Media</span></p>\n<p dir=\"ltr\" style=\"line-height: 1.38; background-color: #ffffff; margin-top: 0pt; margin-bottom: 0pt; padding: 0pt 0pt 18pt 0pt;\"><span style=\"color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;\">Mitre Media is...",
-      "url": "https://remotive.com/remote-jobs/software-development/tech-lead-full-stack-rails-engineer-2069746",
-      "salary": "$170k - $200k",
+      "id": "jobicy-151013",
+      "title": "Distributed Systems Testing Software Engineer, Python / Go",
+      "company": "Canonical",
+      "location": "Anywhere",
+      "description": "Canonical is a leading provider of open source software and operating systems to the global enterprise and technology markets. Our platform, Ubuntu, is very widely used in breakthrough enterprise initiatives such as public cloud, data science, AI, engineering innovation, and IoT. Our customers include the world's leading public cloud and silicon providers, and industry leaders in many sectors. The company is a pioneer of global distributed collaboration, with 1200+ colleagues in 75+ countries and very few office-based roles. Teams meet two to four times yearly in person, in interesting...",
+      "url": "https://jobicy.com/jobs/151013-distributed-systems-testing-software-engineer-python-go",
+      "salary": "Not disclosed",
       "tags": [
-        "api",
-        "CSS",
-        "docker",
-        "elasticsearch",
-        "fullstack",
-        "html",
-        "javascript",
-        "kubernetes",
-        "postgresql",
-        "react",
-        "ror",
-        "ruby/rails",
-        "AI/ML",
-        "CAD",
-        "advertising",
-        "Redis",
-        "ES6",
-        "web applications",
-        "MySQL",
-        "NLP",
-        "fintech",
-        "Micro services",
-        "github",
-        "system architecture"
+        "QA & Testing"
       ],
-      "source": "Remotive",
-      "posted_date": "2026-11-14",
-      "match_score": 64,
+      "source": "Jobicy",
+      "posted_date": "2026-11-21",
+      "match_score": 70,
       "match_reasons": [
-        "Tech stack overlap: Includes Docker, Kubernetes, JavaScript, React, PostgreSQL, and Redis, which align with the candidate's skills.",
-        "Experience level fit: The position is a lead role, which fits the candidate's seniority level.",
-        "Remote restriction: Preferable timezone is USA, Canada which may affect collaboration from Nigeria but is not a total blocker."
+        "Primary skill Python matches candidate's expertise.",
+        "Role is fully remote without specific location requirements.",
+        "Involvement in distributed systems testing aligns well with candidate's experience in microservices architecture."
       ],
-      "should_apply": false,
-      "is_new": false,
-      "found_date": "2026-11-16"
+      "should_apply": true,
+      "is_new": true,
+      "found_date": "2026-11-23"
     }
   ]
 }
